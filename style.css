@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-size: 1.5vw;
+    background-color: #ffcfd9;
+}
+
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #FD4659;
+    text-shadow: 1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+}
+
+aside {
+    background-color: #fce3e8;
+    display: flex;
+    justify-content: space-around;
+}
+#info {
+    color: #4A0100;
+    
+}
+#dessertrecipes {
+    color: #4A0100;
+}
+
+.resizecookie {
+    width: 30%;
+    height: auto;
+    border-radius: 90%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.resizebrownie {
+    width: 30%;
+    height: 30%;
+    border-radius: 90%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.resizeapple {
+    width: 30%;
+    height: 30%;
+    border-radius: 90%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#signup {
+    text-align: center;
+    background-color: #fce3e8;
+}
+
+
+body > footer {
+    display: flex;
+
+}
+
+
+#footerul{
+    display: flex;
+    list-style: none;
+}
+
+#footerul > div > li {
+    margin-left: 12px;
+
+}
+
+#footerul > div > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
